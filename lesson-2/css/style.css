@@ -1,0 +1,7 @@
+@import url('/css/awesome-section.css');
+.container {
+  width: 1140px;
+  height: 595px;
+  margin: 0px auto;
+  padding: 100px 0 0 0;
+}
