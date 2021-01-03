@@ -1,7 +1,30 @@
 @import url('awesome-section.css');
+@import url('pricing.css');
+
 .container {
-  width: 1140px;
-  height: 595px;
+  width: 1170px;
   margin: 0px auto;
-  padding: 100px 0 0 0;
+  padding: 0 15px;
+}
+.title {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  text-align: center;
+}
+.line {
+  width: 64px;
+}
+.text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
 }

@@ -1,0 +1,77 @@
+.pricing {
+  background: #f5f5f5;
+}
+.pricing__title {
+  padding-top: 80px;
+  margin-bottom: 35px;
+}
+.pricing__line {
+  margin: 0 auto 34px;
+  border: 1px solid #e72424;
+}
+.pricing__text {
+  margin-bottom: 63px;
+}
+.pricing-card__row {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.pricing-card__item {
+  width: 340px;
+  text-align: center;
+  margin: 0 40px 80px;
+}
+.card-pricing {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card__name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #fff;
+  background-color: #333333;
+  margin-bottom: 2px;
+  padding: 15px 0 8px;
+}
+.pricing-card__name-text {
+  margin-bottom: 20px;
+}
+.pricing-card__cost {
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #fff;
+  background-color: #333333;
+  margin-bottom: 2px;
+  padding: 26px 0 33px;
+}
+.pricing-card__desc {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333333;
+  margin-bottom: 4px;
+  padding: 17px 0 14px;
+}
+.pricing-card_tech-desc {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-bottom: 2px;
+  background-color: #fff;
+  padding: 10px 0 11px;
+}
+.pricing-card__optima_desc {
+  font-weight: 800;
+  background-color: #d98943;
+}
