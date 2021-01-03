@@ -14,7 +14,6 @@
 }
 .pricing-card__row {
   display: flex;
-  list-style-type: none;
   justify-content: space-around;
 }
 .pricing-card__item {
@@ -23,7 +22,6 @@
   margin: 0 40px 80px;
 }
 .card-pricing {
-  list-style-type: none;
   display: flex;
   flex-direction: column;
 }
