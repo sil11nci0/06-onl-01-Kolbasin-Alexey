@@ -1,5 +1,6 @@
 .pricing {
   background: #f5f5f5;
+  min-width: 100%;
 }
 .pricing__title {
   padding-top: 80px;

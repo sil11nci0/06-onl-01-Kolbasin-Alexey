@@ -2,7 +2,7 @@
 @import url('pricing.css');
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0px auto;
   padding: 0 15px;
 }
