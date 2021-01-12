@@ -3,30 +3,40 @@
   min-width: 100%;
 }
 .pricing__title {
-  padding-top: 80px;
-  margin-bottom: 35px;
-}
-.pricing__line {
-  margin: 0 auto 34px;
-  border: 1px solid #e72424;
+  color: #212121;
 }
 .pricing__text {
   margin-bottom: 63px;
 }
-.pricing-card__row {
+.pricing-card {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
 }
 .pricing-card__item {
   width: 340px;
   text-align: center;
-  margin: 0 40px 80px;
+  margin: 0 15px 80px;
+}
+.pricing-card__item:hover {
+  width: 340px;
+  text-align: center;
+  margin: 0 15px 80px;
+  transform: translateY(-20px);
+  transition: all 0.5s ease-in-out;
+}
+.pricing-card__item:not(:hover) {
+  width: 340px;
+  text-align: center;
+  margin: 0 15px 80px;
+  transform: translateY(20px);
+  transition: all 0.5s ease-in-out;
 }
 .card-pricing {
   display: flex;
   flex-direction: column;
 }
-
 .pricing-card__name {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;

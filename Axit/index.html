@@ -18,17 +18,14 @@
   <section class="awesome">
     <div class="container">
       <h3 class="awesome__title title">why this is awesome</h3>
-      <div class="awesome__line line"></div>
       <p class="awesome__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
       <div class="awesome-card">
         <div class="awesome-card__item">
-          <div class="awesome-card-circle"><img src="img/lightbulb.png" alt="light bulb"
+          <div class="awesome-card-circle"><img src="img/awesome/lightbulb.png" alt="light bulb"
               class="awesome-card-circle__img">
           </div>
-          <h4 class="awesome-card__title awesome-card__title_lightbulb">Thoughtful Design</h4>
+          <h4 class="awesome-card__title awesome-card__title_lightbulb ">Thoughtful Design</h4>
           <div class="awesome-card__description">
-            <!-- удалить div потом -->
             <p class="awesome-card__description_text awesome-card__description_text-lightbulb">Lorem ipsum dolor sit
               amet,
               consectetur adipiscing
@@ -36,9 +33,10 @@
           </div>
         </div>
         <div class="awesome-card__item">
-          <div class="awesome-card-circle"><img src="img/keyboard.png" alt="keyboard" class="awesome-card-circle__img">
+          <div class="awesome-card-circle"><img src="img/awesome/keyboard.png" alt="keyboard"
+              class="awesome-card-circle__img">
           </div>
-          <h4 class="awesome-card__title awesome-card__title_keyboard">Well Crafted</h4>
+          <h4 class="awesome-card__title awesome-card__title_keyboard ">Well Crafted</h4>
           <div class="awesome-card__description">
             <p class="awesome-card__description_text awesome-card__description_text-keyboard">Lorem ipsum dolor sit
               amet,
@@ -47,10 +45,10 @@
           </div>
         </div>
         <div class="awesome-card__item">
-          <div class="awesome-card-circle"><img src="img/lightning.png" alt="lightning"
+          <div class="awesome-card-circle"><img src="img/awesome/lightning.png" alt="lightning"
               class="awesome-card-circle__img">
           </div>
-          <h4 class="awesome-card__title awesome-card__title_lightning">Easy to Customize</h4>
+          <h4 class="awesome-card__title awesome-card__title_lightning ">Easy to Customize</h4>
           <div class="awesome-card__description">
             <p class="awesome-card__description_text awesome-card__description_text-lightning">Lorem ipsum dolor sit
               amet,
@@ -64,62 +62,125 @@
   <section class="pricing">
     <div class="container">
       <h3 class="pricing__title title">pricing options</h3>
-      <div class="pricing__line line"></div>
       <p class="pricing__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <!-- Нужен ли тут div.pricing-card? -->
       <div class="pricing-card">
-        <ul class="pricing-card__row">
-          <li class="pricing-card__item">
-            <ul class="pricing-card__basic card-pricing">
-              <li class="pricing-card__basic_name pricing-card__name">
-                <span class="pricing-card__name-text">Basic</span>
-              </li>
-              <li class="pricing-card__basic_cost pricing-card__cost "><span
-                  class="pricing-card__basic_cost-symbol">&#36</span><span
-                  class="pricing-card__basic_cost-value">10</span>
-              </li>
-              <li class="pricing-card__basic_desc pricing-card__desc">Free for life</li>
-              <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
-            </ul>
-          </li>
-          <li class="pricing-card__item">
-            <ul class="pricing-card__optima card-pricing">
-              <li class="pricing-card__optima_name pricing-card__name"><span
-                  class="pricing-card__name-text">Optima</span></li>
-              <li class="pricing-card__optima_cost pricing-card__cost "><span
-                  class="pricing-card__optima_cost-symbol">&#36</span><span
-                  class="pricing-card__optima_cost-value">20</span></li>
-              <li class="pricing-card__optima_desc pricing-card__desc">Free for life</li>
-              <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
-            </ul>
-          </li>
-          <li class="pricing-card__item">
-            <ul class="pricing-card__pro card-pricing">
-              <li class="pricing-card__pro_name pricing-card__name">Pro</li>
-              <li class="pricing-card__pro_cost pricing-card__cost"><span
-                  class="pricing-card__pro_cost-symbol">&#36</span><span class="pricing-card__pro_cost-value">30</span>
-              </li>
-              <li class="pricing-card__pro_desc pricing-card__desc">Free for life</li>
-              <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
-              <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
-            </ul>
-          </li>
-        </ul>
+        <!-- Не решается проблема с отступом margin-bottom и приходится к каждому item прописывать -->
+        <div class="pricing-card__item">
+          <ul class="pricing-card__basic card-pricing">
+            <li class="pricing-card__basic_name pricing-card__name">
+              <span class="pricing-card__name-text">Basic</span>
+            </li>
+            <li class="pricing-card__basic_cost pricing-card__cost "><span
+                class="pricing-card__basic_cost-symbol">&#36</span><span
+                class="pricing-card__basic_cost-value">10</span>
+            </li>
+            <li class="pricing-card__basic_desc pricing-card__desc">Free for life</li>
+            <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__basic_tech-desc pricing-card_tech-desc">1 gb of space</li>
+          </ul>
+        </div>
+        <div class="pricing-card__item">
+          <ul class="pricing-card__optima card-pricing">
+            <li class="pricing-card__optima_name pricing-card__name"><span class="pricing-card__name-text">Optima</span>
+            </li>
+            <li class="pricing-card__optima_cost pricing-card__cost "><span
+                class="pricing-card__optima_cost-symbol">&#36</span><span
+                class="pricing-card__optima_cost-value">20</span></li>
+            <li class="pricing-card__optima_desc pricing-card__desc">Free for life</li>
+            <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__optima_tech-desc pricing-card_tech-desc">1 gb of space</li>
+          </ul>
+        </div>
+        <div class="pricing-card__item">
+          <ul class="pricing-card__pro card-pricing">
+            <li class="pricing-card__pro_name pricing-card__name">Pro</li>
+            <li class="pricing-card__pro_cost pricing-card__cost"><span
+                class="pricing-card__pro_cost-symbol">&#36</span><span class="pricing-card__pro_cost-value">30</span>
+            </li>
+            <li class="pricing-card__pro_desc pricing-card__desc">Free for life</li>
+            <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
+            <li class="pricing-card__pro_tech-desc pricing-card_tech-desc">1 gb of space</li>
+          </ul>
+        </div>
       </div>
+    </div>
+  </section>
+  <section class="customers">
+    <div class="container">
+      <h3 class="customers__title title">what our customers are saying</h3>
+      <p class="customers__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="customers-card">
+        <div class="customers-card__item">
+          <div class="customers-card__comment">
+            <p class="customers-card__comment_text text">Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Doloribus
+              accusamus expedita repellat similique
+              odio aspernatur ex, architecto eaque
+              quo suscipit.</p>
+
+          </div>
+          <div class="customers-card__content">
+            <img class="customers-card__content_img" src="/img/customers/jeremy.png" alt="face">
+            <div class="customers-card__content_description">
+              <h4 class="customers-card__content_description-name"> Jeremy H.</h4>
+              <p class="customers-card__content_description-job text">Manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="customers-card__item">
+          <div class="customers-card__comment">
+            <p class="customers-card__comment_text text">Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Doloribus
+              accusamus expedita repellat similique
+              odio aspernatur ex, architecto eaque
+              quo suscipit.</p>
+          </div>
+          <div class="customers-card__content">
+            <img class="customers-card__content_img" src="/img/customers/jeremy.png" alt="face">
+            <div class="customers-card__content_description">
+              <h4 class="customers-card__content_description-name">Jeremy H.</h4>
+              <p class="customers-card__content_description-job text">Manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="customers-card__item">
+          <div class="customers-card__comment">
+            <p class="customers-card__comment_text text">Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Doloribus
+              accusamus expedita repellat similique
+              odio aspernatur ex, architecto eaque
+              quo suscipit.</p>
+          </div>
+          <div class="customers-card__content">
+            <img class="customers-card__content_img" src="/img/customers/jeremy.png" alt="face">
+            <div class="customers-card__content_description">
+              <h4 class="customers-card__content_description-name">Jeremy H.</h4>
+              <p class="customers-card__content_description-job text">Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="axure">
+    <div class="container">
+      <h3 class="axure__title title">stylish axure design</h3>
+      <p class="axure__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
+        faster
+        than ever!</p>
+      <button class="axure__button">Download</button>
     </div>
   </section>
 </body>

@@ -1,5 +1,7 @@
 @import url('awesome-section.css');
 @import url('pricing.css');
+@import url('customers.css');
+@import url('axure.css');
 
 .container {
   max-width: 1170px;
@@ -13,11 +15,33 @@
   font-weight: normal;
   font-size: 36px;
   line-height: 42px;
-  color: #212121;
   text-align: center;
+  padding-top: 80px;
+  margin-bottom: 70px;
 }
+.title::after {
+  width: 64px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d98943;
+  content: '';
+  display: block;
+  position: relative;
+  top: 35px;
+}
+/* .subtitle {
+  margin: 0px auto 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #333333; /* доредактировать код переместить в awesome-card__title */
+} */
 .line {
   width: 64px;
+  margin: 0 auto 35px;
+  border-bottom: 1px solid #d98943;
 }
 .text {
   text-align: center;

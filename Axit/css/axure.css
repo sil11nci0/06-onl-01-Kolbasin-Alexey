@@ -1,0 +1,57 @@
+.axure {
+  background: url(/img/axure/axure-background.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+.axure::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+.axure__title {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.axure__text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #86878b;
+  margin-bottom: 57px;
+  position: relative;
+  z-index: 2;
+}
+.axure__button {
+  margin-bottom: 38px;
+  border: 1px solid #fff;
+  padding: 11px 26px;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 15px;
+  z-index: 2;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.axure__button:hover {
+  transition: all 0.5s;
+  color: #fff;
+  border: 1px solid #86878b;
+  background-color: rgba(217, 137, 67, 0.65);
+}
+.axure__button:not(:hover) {
+  transition: all 1s;
+}
