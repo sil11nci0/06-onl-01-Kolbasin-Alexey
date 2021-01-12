@@ -28,16 +28,6 @@
   position: relative;
   top: 35px;
 }
-/* .subtitle {
-  margin: 0px auto 16px;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
-  text-align: center;
-  color: #333333; /* доредактировать код переместить в awesome-card__title */
-} */
 .line {
   width: 64px;
   margin: 0 auto 35px;
