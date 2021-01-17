@@ -12,13 +12,18 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.55);
+}
+.container {
+  position: relative;
   z-index: 1;
 }
 .axure__title {
   color: #fff;
-  position: relative;
-  z-index: 2;
 }
+.axure__title::after {
+  border-bottom: 1px solid #fff !important;
+}
+
 .axure__text {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -27,8 +32,6 @@
   line-height: 19px;
   color: #86878b;
   margin-bottom: 57px;
-  position: relative;
-  z-index: 2;
 }
 .axure__button {
   margin-bottom: 38px;
@@ -41,17 +44,21 @@
   font-weight: 600;
   line-height: 20px;
   font-size: 15px;
-  z-index: 2;
   position: relative;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%);
 }
 .axure__button:hover {
   transition: all 0.5s;
   color: #fff;
   border: 1px solid #86878b;
-  background-color: rgba(217, 137, 67, 0.65);
+  background-color: rgba(114, 113, 111, 0.65);
 }
 .axure__button:not(:hover) {
   transition: all 1s;
+}
+.social-card__item {
+  width: 40px;
+  height: 40px;
+  color: aqua;
 }

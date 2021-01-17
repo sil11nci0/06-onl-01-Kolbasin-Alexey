@@ -1,0 +1,32 @@
+.footer {
+  background: #000000;
+}
+.footer-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 15px;
+}
+.footer-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 320px;
+  padding-top: 30px;
+  align-self: center;
+  margin-bottom: 18px;
+}
+.footer-card__icon {
+  font-size: 25px;
+  color: #86878b;
+  opacity: 0.5;
+}
+.footer-copyright {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  align-self: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 15px;
+}

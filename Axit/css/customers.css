@@ -13,6 +13,9 @@
 .customers-card__item {
   width: 300px;
   margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .customers-card__comment {
   border: 1px solid #e2e2e2;
