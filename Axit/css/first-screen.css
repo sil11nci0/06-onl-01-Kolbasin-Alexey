@@ -118,6 +118,10 @@ _________________________________________________ */
   line-height: 19px;
   padding: 20px 0;
 }
+.first-screen__form_item:focus {
+  color: #d98943;
+  transition: all 0.5s;
+}
 .first-screen__form_item:last-child {
   margin-bottom: 60px;
 }
