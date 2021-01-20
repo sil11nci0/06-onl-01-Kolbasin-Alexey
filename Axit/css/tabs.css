@@ -2,12 +2,18 @@
   padding-top: 125px;
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .tabs__items {
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
+}
+.tabs__container-pic {
+  margin: 0 15px;
 }
 .tabs__item {
+  width: 112px;
   padding: 45px 35px;
   display: flex;
   justify-content: center;
@@ -38,6 +44,7 @@
 }
 .tabs__body {
   width: 570px;
+  margin: 0 15px;
 }
 .tabs__block {
   display: none;

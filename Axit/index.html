@@ -51,9 +51,10 @@
           <div class="first-screen__container">
             <h4 class="first-screen__form_title">try your <span class="first-screen__form_title-highlighted">free</span>
               trial today</h4>
-            <input type="text" class="first-screen__form_item" placeholder="Name" required="required">
-            <input type="email" class="first-screen__form_item" placeholder="Email" required="required">
-            <input type="password" class="first-screen__form_item" placeholder="Password" required="required">
+            <input type="text" class="first-screen__form_item" placeholder="Name" required="required" maxlength="12">
+            <input type="email" class="first-screen__form_item" placeholder="Email" required="required" maxlength="21">
+            <input type="password" class="first-screen__form_item" placeholder="Password" required="required"
+              maxlength="10">
           </div>
           <button class="first-screen__form_submit">Get Started</button>
         </form>
@@ -130,7 +131,8 @@
             <a href="" class="tabs__block_button">Download</a>
           </div>
         </div>
-        <img src="/img/tabs/city.png" alt="city" class="tabs__pic">
+        <div class="tabs__container-pic"><img src="/img/tabs/city.png" alt="city" class="tabs__pic"></div>
+
       </div>
     </div>
   </section>
@@ -315,13 +317,13 @@
       <form action="POST" class="contacts__form">
         <div class="contacts__form-container">
           <div class="contacts__form-item">
-            <input type="text" class="contacts__form-item_element" placeholder="Name">
-            <input type="email" class="contacts__form-item_element" placeholder="Email">
-            <input type="password" class="contacts__form-item_element" placeholder="Password">
+            <input type="text" class="contacts__form-item_element" placeholder="Name" maxlength="12">
+            <input type="email" class="contacts__form-item_element" placeholder="Email" maxlength="21">
+            <input type="password" class="contacts__form-item_element" placeholder="Password" maxlength="10">
           </div>
           <div class="contacts__form-item">
             <textarea name="" id="" class="contacts__form-item_element contacts__form-item_element-comment"
-              placeholder="Message"></textarea>
+              placeholder="Message" maxlength="150"></textarea>
           </div>
         </div>
         <button class="contacts__form_submit">Send Message</button>

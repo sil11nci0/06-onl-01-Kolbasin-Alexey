@@ -31,6 +31,9 @@
   line-height: 19px;
   color: #bdbdbd;
 }
+.contacts__form-item_element:focus {
+  color: #d98943;
+}
 .contacts__form-item_element:first-child {
   padding-top: 0px;
 }
