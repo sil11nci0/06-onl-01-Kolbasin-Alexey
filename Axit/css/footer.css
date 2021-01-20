@@ -4,7 +4,6 @@
 .footer-container {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 15px;
 }
 .footer-card {
   display: flex;
@@ -20,8 +19,12 @@
   color: #86878b;
   opacity: 0.5;
 }
+.footer-card__icon:hover {
+  transition: all 0.5s;
+  color: #d98943;
+}
 .footer-copyright {
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;

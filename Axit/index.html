@@ -12,10 +12,55 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
 </head>
 
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="navigation">
+        <div class="navigation__logo navigation__item"><a href="#" class="navigation__logo-container"><span
+              class="navigation__logo_non-highlighted">ax</span><span
+              class="navigation__logo_highlighted logo_highlighted">it</span></a>
+        </div>
+        <ul class="navigation__menu navigation__item">
+          <li class="navigation__menu-item navigation__menu-item_feautures"><a class="navigation__menu-item_link"
+              href="#">feautures</a></li>
+          <li class="navigation__menu-item navigation__menu-item_about"><a class="navigation__menu-item_link"
+              href="#">about</a></li>
+          <li class="navigation__menu-item navigation__menu-item_pricing"><a class="navigation__menu-item_link"
+              href="#">pricing</a></li>
+          <li class="navigation__menu-item navigation__menu-item_reviews"><a class="navigation__menu-item_link"
+              href="#">reviews</a></li>
+          <li class="navigation__menu-item navigation__menu-item_contact"><a class="navigation__menu-item_link"
+              href="#">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="first-screen">
+    <div class="container">
+      <div class="first-screen-container">
+        <div class="first-screen-container__description">
+          <h1 class="first-screen__title">ax<span class="first-screen__title_highlighted logo_highlighted">it</span>
+          </h1>
+          <h3 class="first-screen__subtitle">modern axure template for beautiful prototypes</h3>
+          <p class="first-screen__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero?</p>
+          <a href="#" class="first-screen__button">Download</a>
+        </div>
+        <form action="POST" class="first-screen__form">
+          <div class="first-screen__container">
+            <h4 class="first-screen__form_title">try your <span class="first-screen__form_title-highlighted">free</span>
+              trial today</h4>
+            <input type="text" class="first-screen__form_item" placeholder="Name" required="required">
+            <input type="email" class="first-screen__form_item" placeholder="Email" required="required">
+            <input type="password" class="first-screen__form_item" placeholder="Password" required="required">
+          </div>
+          <button class="first-screen__form_submit">Get Started</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
   <section class="social">
     <div class="container">
       <div class="social-container">
@@ -42,11 +87,53 @@
                 class="fas fa-rss"></i></a></li>
         </ul>
       </div>
-
     </div>
   </section>
 
-
+  <section class="tabs">
+    <div class="container">
+      <div class="tabs-container">
+        <div class="tabs__items">
+          <a href="#tabs__item_1" class="tabs__item">Tab 1</a>
+          <a href="#tabs__item_2" class="tabs__item">Tab 2</a>
+          <a href="#tabs__item_3" class="tabs__item">Tab 3</a>
+        </div>
+        <div class="tabs__body">
+          <div id="tabs__item_3" class="tabs__block">
+            <h4 class="tabs__block_title">3 Tabs with soft transitioning effect.</h4>
+            <p class="tabs__block_text">3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet.</p>
+            <a href="" class="tabs__block_button">Download</a>
+          </div>
+          <div id="tabs__item_2" class="tabs__block">
+            <h4 class="tabs__block_title">2 Tabs with soft transitioning effect.</h4>
+            <p class="tabs__block_text">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet.</p>
+            <a href="" class="tabs__block_button">Download</a>
+          </div>
+          <div id="tabs__item_1" class="tabs__block">
+            <h4 class="tabs__block_title">1 Tabs with soft transitioning effect.</h4>
+            <p class="tabs__block_text">1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+              justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+              penatibus et magnis dis parturient montes.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+              bibendum laoreet.</p>
+            <a href="" class="tabs__block_button">Download</a>
+          </div>
+        </div>
+        <img src="/img/tabs/city.png" alt="city" class="tabs__pic">
+      </div>
+    </div>
+  </section>
 
   <section class="awesome">
     <div class="container">
@@ -221,7 +308,26 @@
       <button class="axure__button">Download</button>
     </div>
   </section>
-
+  <section class="contacts">
+    <div class="container">
+      <h3 class="contacts__title title">contact us</h3>
+      <p class="contacts__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <form action="POST" class="contacts__form">
+        <div class="contacts__form-container">
+          <div class="contacts__form-item">
+            <input type="text" class="contacts__form-item_element" placeholder="Name">
+            <input type="email" class="contacts__form-item_element" placeholder="Email">
+            <input type="password" class="contacts__form-item_element" placeholder="Password">
+          </div>
+          <div class="contacts__form-item">
+            <textarea name="" id="" class="contacts__form-item_element contacts__form-item_element-comment"
+              placeholder="Message"></textarea>
+          </div>
+        </div>
+        <button class="contacts__form_submit">Send Message</button>
+      </form>
+    </div>
+  </section>
   <footer class="footer">
     <div class="container">
       <div class="footer-container">

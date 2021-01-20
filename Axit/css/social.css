@@ -14,8 +14,6 @@
 .social-card {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  width: 685px;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -43,4 +41,13 @@
   font-size: 40px;
   color: #86878b;
   opacity: 0.5;
+}
+.social-card__icon:hover {
+  transition: all 0.5s;
+  color: #d98943;
+  opacity: 0.8;
+}
+
+.social-card__item:not(:last-child) {
+  margin-right: 65px;
 }

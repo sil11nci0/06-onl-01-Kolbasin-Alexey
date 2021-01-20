@@ -1,9 +1,13 @@
+@import url('header.css');
+@import url('first-screen.css');
 @import url('awesome-section.css');
+@import url('tabs.css');
 @import url('pricing.css');
 @import url('customers.css');
 @import url('axure.css');
 @import url('social.css');
 @import url('footer.css');
+@import url('contacts.css');
 
 .container {
   max-width: 1170px;
