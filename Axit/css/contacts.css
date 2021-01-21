@@ -1,6 +1,3 @@
-.contacts {
-  background: #e5e5e5;
-}
 .contacts__text {
   margin-bottom: 95px;
 }
@@ -22,7 +19,6 @@
   border-bottom: 1px solid #bdbdbd;
   outline: none;
   width: 478px;
-  background: #e5e5e5;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
