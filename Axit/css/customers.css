@@ -18,6 +18,7 @@
   justify-content: space-between;
 }
 .customers-card__comment {
+  height: 100%;
   border: 1px solid #e2e2e2;
   border-radius: 7px;
   background: #e2e2e2;
