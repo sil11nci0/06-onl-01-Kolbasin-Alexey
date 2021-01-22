@@ -76,6 +76,7 @@
   .customers-card {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
   }
   .customers-card__comment {
     width: 400px;
