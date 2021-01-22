@@ -98,9 +98,6 @@
   .pricing-card__item {
     width: 400px;
   }
-  .pricing-card__item:not(:hover) {
-    width: 400px;
-  }
 }
 @media (min-width: 360px) and (max-width: 768px) {
   .pricing-card {
@@ -108,9 +105,6 @@
     align-items: center;
   }
   .pricing-card__item {
-    width: 330px;
-  }
-  .pricing-card__item:not(:hover) {
     width: 330px;
   }
 }

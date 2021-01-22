@@ -119,6 +119,11 @@
 .tabs__pic {
   align-self: flex-start;
 }
+@media (min-width: 1200px) {
+  .tabs__block_button-adaptive {
+    display: none;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .tabs__block_button-adaptive {
     display: none;
