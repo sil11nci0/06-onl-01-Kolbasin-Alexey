@@ -84,3 +84,33 @@
   font-weight: 800;
   background-color: #d98943;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing-card {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .pricing-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-card__item {
+    width: 400px;
+  }
+  .pricing-card__item:not(:hover) {
+    width: 400px;
+  }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .pricing-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-card__item {
+    width: 330px;
+  }
+  .pricing-card__item:not(:hover) {
+    width: 330px;
+  }
+}

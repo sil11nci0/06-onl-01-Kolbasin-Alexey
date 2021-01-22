@@ -57,8 +57,3 @@
 .axure__button:not(:hover) {
   transition: all 1s;
 }
-.social-card__item {
-  width: 40px;
-  height: 40px;
-  color: aqua;
-}
